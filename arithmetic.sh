@@ -48,3 +48,8 @@
 	done
 	echo "Sorted Array in Descending Order"
 	echo ${array[*]}| tr " " "\n" | sort -nr
+
+#UC9 sort array in ascending order
+
+	echo "Sorted Array in Ascending Order"
+	echo ${array[*]} | tr " " "\n" | sort -n

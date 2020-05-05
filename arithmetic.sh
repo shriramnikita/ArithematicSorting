@@ -30,3 +30,11 @@
 	do
 		echo ${key}
 	done
+
+#UC7 store values from dictionary into array
+
+	array=${dictionary[@]}
+	for item in ${array[@]}
+	do
+		echo $item
+	done

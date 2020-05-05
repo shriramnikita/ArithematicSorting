@@ -16,3 +16,7 @@
 #UC4 calculate c+a/b
 	calculation2=$(($c + $a /$b))
 	echo "Use Case 4: " $calculation2
+
+#UC5 calculate /b+c
+	calculation3=$(($a / $b + $c))
+	echo "Use Case 5: " $calculation3

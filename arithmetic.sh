@@ -38,3 +38,13 @@
 	do
 		echo $item
 	done
+
+#UC8 sort computation results in descending order
+
+	array=${dictionary[@]}
+	for item in ${array[@]}
+	do
+		echo "Array: ${item}"
+	done
+	echo "Sorted Array in Descending Order"
+	echo ${array[*]}| tr " " "\n" | sort -nr

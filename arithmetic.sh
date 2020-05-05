@@ -8,3 +8,7 @@
 #UC2 calculate a+b*c
 	calculation=$(($a + $b * $c))
 	echo $calculation
+
+#UC3 calculate a*b+c
+	calculation1=$(($a * $b + $c))
+	echo "Use Case 2: " $calculation1

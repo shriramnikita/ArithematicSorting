@@ -20,3 +20,13 @@
 #UC5 calculate a/b+c
 	uc5=$(($a / $b + $c))
 	echo "Use Case 5: " $uc5
+
+
+#UC6 store computation in  dictionary 
+	
+	declare -A dictionary
+	dictionary=([case1]=$calculation [case2]=$calculation1 [case3]=$calculation2 [case4]=$calculation3)
+	for key in ${dictionary[@]}
+	do
+		echo ${key}
+	done
